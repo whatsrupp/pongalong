@@ -2,8 +2,25 @@
 
 ## Political Pong like you've never seen before.
 
-### Contributing to this Repository:
+## Contributing to this Repository:
+2 Sections:
+- Basic Git workflow
+- Running the local server to see your changes
 
+### Basic Workflow
+
+#### Make sure you have node and yarn installed
+ensure home brew is working
+```
+brew doctor
+```
+then install node and yarn with homebrew
+```
+brew install node
+```
+```
+brew install yarn
+```
 #### Navigate to the directory on your computer you'd like to work from
 
 Use `cd` and `ls` to navigate around your local folders
@@ -22,6 +39,12 @@ $ git clone https://github.com/whatsrupp/pongalong
 Before you start working, make sure you're up to date
 ```
 $	git pull
+```
+
+#### Ensure that all your required packages are up to date
+Run yarn (which is our package manager) and it will install all relevant packages for you
+```
+$ yarn
 ```
 #### Start your own branch
 Create your own branch to work on
@@ -51,3 +74,18 @@ On git hub follow the instructions for submitting a pull request
 
 #### Ask If Confused
 Don't suffer in silence, ask for help!
+
+### Running the local Server
+
+#### Stating it up
+use the yarn start script to boot up the Server
+```
+$ yarn start
+```
+
+#### Checking it out
+
+go to your browser and go to the url
+```
+http://localhost:3000/
+```
