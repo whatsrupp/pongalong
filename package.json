@@ -1,0 +1,12 @@
+{
+  "name": "pongalong",
+  "version": "0.0.1",
+  "description": "A small game of Political Pong ",
+  "main": "index.js",
+  "repository": "https://github.com/whatsrupp/pongalong.git",
+  "author": "whatsrupp <nickrupp95@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
